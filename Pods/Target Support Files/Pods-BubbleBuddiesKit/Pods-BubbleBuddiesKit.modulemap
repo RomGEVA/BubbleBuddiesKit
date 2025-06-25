@@ -1,0 +1,6 @@
+framework module Pods_BubbleBuddiesKit {
+  umbrella header "Pods-BubbleBuddiesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

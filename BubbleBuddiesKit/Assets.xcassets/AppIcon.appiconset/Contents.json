@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Flux_Dev_Minimalistic_3D_mobile_game_icon_cute_animal_cat_insi_0.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

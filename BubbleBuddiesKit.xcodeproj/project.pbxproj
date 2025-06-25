@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DDDD102E0BCF3B004026EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD062E0BCF3B004026EE /* AppDelegate.swift */; };
+		74DDDD112E0BCF3B004026EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD0D2E0BCF3B004026EE /* SceneDelegate.swift */; };
+		74DDDD132E0BCF3B004026EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDDD072E0BCF3B004026EE /* Assets.xcassets */; };
+		74DDDD152E0BCF3B004026EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DDDD0A2E0BCF3B004026EE /* LaunchScreen.storyboard */; };
+		74DDDD162E0BCF3B004026EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DDDD0C2E0BCF3B004026EE /* Main.storyboard */; };
+		74DDDD432E0BCF9F004026EE /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD412E0BCF9F004026EE /* Bubble.swift */; };
+		74DDDD462E0BCF9F004026EE /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD442E0BCF9F004026EE /* GameViewModel.swift */; };
+		74DDDD4E2E0BCF9F004026EE /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD472E0BCF9F004026EE /* AchievementsView.swift */; };
+		74DDDD4F2E0BCF9F004026EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD482E0BCF9F004026EE /* GameScene.swift */; };
+		74DDDD502E0BCF9F004026EE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD492E0BCF9F004026EE /* GameView.swift */; };
+		74DDDD512E0BCF9F004026EE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD4A2E0BCF9F004026EE /* OnboardingView.swift */; };
+		74DDDD522E0BCF9F004026EE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD4B2E0BCF9F004026EE /* SettingsView.swift */; };
+		74DDDD532E0BCF9F004026EE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD4C2E0BCF9F004026EE /* StartView.swift */; };
+		74DDDD552E0BCFB3004026EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDD542E0BCFB3004026EE /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D9BDEA8523598BDC57E5F8E /* Pods_BubbleBuddiesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleBuddiesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6196638E43C959E683990E4D /* Pods-BubbleBuddiesKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleBuddiesKit.debug.xcconfig"; path = "Target Support Files/Pods-BubbleBuddiesKit/Pods-BubbleBuddiesKit.debug.xcconfig"; sourceTree = "<group>"; };
+		74DDDCC72E0BCEC4004026EE /* BubbleBuddiesKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleBuddiesKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDDD062E0BCF3B004026EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74DDDD072E0BCF3B004026EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DDDD082E0BCF3B004026EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DDDD092E0BCF3B004026EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DDDD0B2E0BCF3B004026EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DDDD0D2E0BCF3B004026EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74DDDD412E0BCF9F004026EE /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		74DDDD442E0BCF9F004026EE /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		74DDDD472E0BCF9F004026EE /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74DDDD482E0BCF9F004026EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		74DDDD492E0BCF9F004026EE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		74DDDD4A2E0BCF9F004026EE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74DDDD4B2E0BCF9F004026EE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74DDDD4C2E0BCF9F004026EE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		74DDDD542E0BCFB3004026EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81BDA9E2C31C8088416C2673 /* Pods-BubbleBuddiesKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleBuddiesKit.release.xcconfig"; path = "Target Support Files/Pods-BubbleBuddiesKit/Pods-BubbleBuddiesKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DDDCC42E0BCEC4004026EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DDDCBE2E0BCEC4004026EE = {
+			isa = PBXGroup;
+			children = (
+				74DDDD0F2E0BCF3B004026EE /* BubbleBuddiesKit */,
+				74DDDCC82E0BCEC4004026EE /* Products */,
+				BD697DBF780C14541A09A55F /* Pods */,
+				C05073659307357CA2EEA77C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74DDDCC82E0BCEC4004026EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DDDCC72E0BCEC4004026EE /* BubbleBuddiesKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DDDD0F2E0BCF3B004026EE /* BubbleBuddiesKit */ = {
+			isa = PBXGroup;
+			children = (
+				74DDDD062E0BCF3B004026EE /* AppDelegate.swift */,
+				74DDDD072E0BCF3B004026EE /* Assets.xcassets */,
+				74DDDD082E0BCF3B004026EE /* Info.plist */,
+				74DDDD0A2E0BCF3B004026EE /* LaunchScreen.storyboard */,
+				74DDDD0C2E0BCF3B004026EE /* Main.storyboard */,
+				74DDDD0D2E0BCF3B004026EE /* SceneDelegate.swift */,
+				74DDDD422E0BCF9F004026EE /* Models */,
+				74DDDD452E0BCF9F004026EE /* ViewModels */,
+				74DDDD4D2E0BCF9F004026EE /* Views */,
+				74DDDD542E0BCFB3004026EE /* ContentView.swift */,
+			);
+			path = BubbleBuddiesKit;
+			sourceTree = "<group>";
+		};
+		74DDDD422E0BCF9F004026EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74DDDD412E0BCF9F004026EE /* Bubble.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74DDDD452E0BCF9F004026EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74DDDD442E0BCF9F004026EE /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74DDDD4D2E0BCF9F004026EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74DDDD472E0BCF9F004026EE /* AchievementsView.swift */,
+				74DDDD482E0BCF9F004026EE /* GameScene.swift */,
+				74DDDD492E0BCF9F004026EE /* GameView.swift */,
+				74DDDD4A2E0BCF9F004026EE /* OnboardingView.swift */,
+				74DDDD4B2E0BCF9F004026EE /* SettingsView.swift */,
+				74DDDD4C2E0BCF9F004026EE /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD697DBF780C14541A09A55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6196638E43C959E683990E4D /* Pods-BubbleBuddiesKit.debug.xcconfig */,
+				81BDA9E2C31C8088416C2673 /* Pods-BubbleBuddiesKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C05073659307357CA2EEA77C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9BDEA8523598BDC57E5F8E /* Pods_BubbleBuddiesKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DDDCC62E0BCEC4004026EE /* BubbleBuddiesKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DDDCDA2E0BCEC5004026EE /* Build configuration list for PBXNativeTarget "BubbleBuddiesKit" */;
+			buildPhases = (
+				A4DFF0324E11E70551444E5B /* [CP] Check Pods Manifest.lock */,
+				74DDDCC32E0BCEC4004026EE /* Sources */,
+				74DDDCC42E0BCEC4004026EE /* Frameworks */,
+				74DDDCC52E0BCEC4004026EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleBuddiesKit;
+			productName = BubbleBuddiesKit;
+			productReference = 74DDDCC72E0BCEC4004026EE /* BubbleBuddiesKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DDDCBF2E0BCEC4004026EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					74DDDCC62E0BCEC4004026EE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 74DDDCC22E0BCEC4004026EE /* Build configuration list for PBXProject "BubbleBuddiesKit" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DDDCBE2E0BCEC4004026EE;
+			productRefGroup = 74DDDCC82E0BCEC4004026EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DDDCC62E0BCEC4004026EE /* BubbleBuddiesKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DDDCC52E0BCEC4004026EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDDD132E0BCF3B004026EE /* Assets.xcassets in Resources */,
+				74DDDD152E0BCF3B004026EE /* LaunchScreen.storyboard in Resources */,
+				74DDDD162E0BCF3B004026EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4DFF0324E11E70551444E5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BubbleBuddiesKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DDDCC32E0BCEC4004026EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDDD462E0BCF9F004026EE /* GameViewModel.swift in Sources */,
+				74DDDD432E0BCF9F004026EE /* Bubble.swift in Sources */,
+				74DDDD552E0BCFB3004026EE /* ContentView.swift in Sources */,
+				74DDDD102E0BCF3B004026EE /* AppDelegate.swift in Sources */,
+				74DDDD4E2E0BCF9F004026EE /* AchievementsView.swift in Sources */,
+				74DDDD4F2E0BCF9F004026EE /* GameScene.swift in Sources */,
+				74DDDD502E0BCF9F004026EE /* GameView.swift in Sources */,
+				74DDDD512E0BCF9F004026EE /* OnboardingView.swift in Sources */,
+				74DDDD522E0BCF9F004026EE /* SettingsView.swift in Sources */,
+				74DDDD532E0BCF9F004026EE /* StartView.swift in Sources */,
+				74DDDD112E0BCF3B004026EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74DDDD0A2E0BCF3B004026EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DDDD092E0BCF3B004026EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74DDDD0C2E0BCF3B004026EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DDDD0B2E0BCF3B004026EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DDDCDB2E0BCEC5004026EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6196638E43C959E683990E4D /* Pods-BubbleBuddiesKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BubbleBuddiesKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bubble Buddies";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bubbleBuddies.wwqdaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74DDDCDC2E0BCEC5004026EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BDA9E2C31C8088416C2673 /* Pods-BubbleBuddiesKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BubbleBuddiesKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bubble Buddies";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bubbleBuddies.wwqdaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74DDDCDD2E0BCEC5004026EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74DDDCDE2E0BCEC5004026EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DDDCC22E0BCEC4004026EE /* Build configuration list for PBXProject "BubbleBuddiesKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDDCDD2E0BCEC5004026EE /* Debug */,
+				74DDDCDE2E0BCEC5004026EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DDDCDA2E0BCEC5004026EE /* Build configuration list for PBXNativeTarget "BubbleBuddiesKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDDCDB2E0BCEC5004026EE /* Debug */,
+				74DDDCDC2E0BCEC5004026EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DDDCBF2E0BCEC4004026EE /* Project object */;
+}
